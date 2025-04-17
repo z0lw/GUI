@@ -64,9 +64,9 @@ var expGuiCondition = function (pObject, config) {
     // 変数郡
     // デフォルト探索条件
     var def_condition_t = "T3221233232319";
-    var def_condition_f = "F33211221200001";
+    var def_condition_f = "F33221221200001"; // 4番目の1を2に変更
     var def_condition_a = "A23121141";
-    var def_sortType = "ekispert"; // デフォルトソート
+    var def_sortType = "price"; // デフォルトソート
     var def_priceType = "oneway"; // 片道運賃がデフォルト
     var def_answerCount = "5"; // 探索結果数のデフォルト
     var checkBoxItemName = "shinkansen:shinkansenNozomi:limitedExpress:localBus:liner:midnightBus"; //チェックボックスに表示する条件
