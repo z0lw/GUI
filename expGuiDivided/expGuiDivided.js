@@ -2,7 +2,7 @@
  *  駅すぱあと API
  *  分割計算パーツ
  *  サンプルコード
- *  https://github.com/EkispertWebService/GUI
+ *  https://github.com/z0lw/GUI
  *  
  *  Version:2016-06-20
  *  

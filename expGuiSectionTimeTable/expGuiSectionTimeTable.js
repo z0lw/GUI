@@ -2,7 +2,7 @@
  *  駅すぱあと API
  *  区間時刻表パーツ
  *  サンプルコード
- *  https://github.com/EkispertWebService/GUI
+ *  https://github.com/z0lw/GUI
  *  
  *  Version:2016-06-20
  *  

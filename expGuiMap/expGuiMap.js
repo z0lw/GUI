@@ -2,7 +2,7 @@
  *  駅すぱあと API
  *  路線図パーツ
  *  サンプルコード
- *  https://github.com/EkispertWebService/GUI
+ *  https://github.com/z0lw/GUI
  *  
  *  Version:2017-03-29
  *  

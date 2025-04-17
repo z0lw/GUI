@@ -2,7 +2,7 @@
  *  駅すぱあと API
  *  駅名入力パーツ
  *  サンプルコード
- *  https://github.com/EkispertWebService/GUI
+ *  https://github.com/z0lw/GUI
  *
  *  Version:2018-06-14
  *

@@ -2,7 +2,7 @@
  *  駅すぱあと API
  *  範囲探索パーツ
  *  サンプルコード
- *  https://github.com/EkispertWebService/GUI
+ *  https://github.com/z0lw/GUI
  *  
  *  Version:2017-11-15
  *  

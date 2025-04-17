@@ -1,7 +1,7 @@
 /**
  *  駅すぱあと API
  *  サンプルコード
- *  https://github.com/EkispertWebService/GUI
+ *  https://github.com/z0lw/GUI
  *  
  *  Version:2023-08-25
  *  

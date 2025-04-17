@@ -2,7 +2,7 @@
  *  駅すぱあと API
  *  日付入力パーツ
  *  サンプルコード
- *  https://github.com/EkispertWebService/GUI
+ *  https://github.com/z0lw/GUI
  *
  *  Version:2016-08-04
  *

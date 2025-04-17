@@ -6,7 +6,7 @@
  なお、サンプルとしてのご提供のため、動作保証やお問い合わせ等のサポートは承っておりません。  
  ご利用にあたりユーザーズガイドをご用意しておりますので、ご参照ください。  
 
- サンプルコードへのご意見・ご要望につきましては、[GitHubのIssue](https://github.com/EkispertWebService/GUI/issues/new)へ投稿いただけますと幸いです。  
+ サンプルコードへのご意見・ご要望につきましては、[GitHubのIssue](https://github.com/z0lw/GUI/issues/new)へ投稿いただけますと幸いです。  
  今後のサンプルご提供にあたり参考とさせていただきます。  
 
 ## ダウンロードしたファイルの利用方法
@@ -62,7 +62,7 @@
 
 ## サンプルコード
 
-[Wiki](https://github.com/EkispertWebService/GUI/wiki)にてリファレンスやサンプルなどをご用意しております。
+[Wiki](https://github.com/z0lw/GUI/wiki)にてリファレンスやサンプルなどをご用意しております。
 
 ## 推奨環境
 
@@ -83,43 +83,43 @@
 
 |||
 | --- | --- |
-|経路探索|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/sample.html)|
-|鉄道駅の時刻表|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/stationTimeTable.html)|
-|区間の時刻表|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/sectionTimeTable.html)|
-|鉄道駅時刻表の列車情報|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/trainTimeTable.html)|
-|定期代の払い戻し計算|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/repayment.html)|
-|定期代/運賃の分割計算|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/divided.html)|
-|経路を利用した時刻表表示|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/courseTimeTable.html)|
-|回数券を利用した経路探索|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/courseCoupon.html)|
-|ランドマークを利用した経路探索|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/landmarkCourse.html)|
+|経路探索|[サンプルを確認](http://z0lw.github.io/GUI/sample/sample.html)|
+|鉄道駅の時刻表|[サンプルを確認](http://z0lw.github.io/GUI/sample/stationTimeTable.html)|
+|区間の時刻表|[サンプルを確認](http://z0lw.github.io/GUI/sample/sectionTimeTable.html)|
+|鉄道駅時刻表の列車情報|[サンプルを確認](http://z0lw.github.io/GUI/sample/trainTimeTable.html)|
+|定期代の払い戻し計算|[サンプルを確認](http://z0lw.github.io/GUI/sample/repayment.html)|
+|定期代/運賃の分割計算|[サンプルを確認](http://z0lw.github.io/GUI/sample/divided.html)|
+|経路を利用した時刻表表示|[サンプルを確認](http://z0lw.github.io/GUI/sample/courseTimeTable.html)|
+|回数券を利用した経路探索|[サンプルを確認](http://z0lw.github.io/GUI/sample/courseCoupon.html)|
+|ランドマークを利用した経路探索|[サンプルを確認](http://z0lw.github.io/GUI/sample/landmarkCourse.html)|
 
 ### データ取得サンプル
 
 |||
 | --- | --- |
-|駅情報の取得|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/stationInfo.html)|
-|路線情報の取得|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/railInfo.html)|
-|範囲探索|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/stationRange.html)|
-|回数券情報の表示|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/couponList.html)|
+|駅情報の取得|[サンプルを確認](http://z0lw.github.io/GUI/sample/stationInfo.html)|
+|路線情報の取得|[サンプルを確認](http://z0lw.github.io/GUI/sample/railInfo.html)|
+|範囲探索|[サンプルを確認](http://z0lw.github.io/GUI/sample/stationRange.html)|
+|回数券情報の表示|[サンプルを確認](http://z0lw.github.io/GUI/sample/couponList.html)|
 
 ### 路線図
 
 |||
 | --- | --- |
-|路線図表示サンプル|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/basic.html)|
-|路線図イベント設定サンプル|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/event.html)|
-|路線図駅クリック設定サンプル|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/click.html)|
-|路線図サイズ調整サンプル|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/table.html)|
-|路線図アプリケーションの実例サンプル|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/powerful.html)|
+|路線図表示サンプル|[サンプルを確認](http://z0lw.github.io/GUI/sample/basic.html)|
+|路線図イベント設定サンプル|[サンプルを確認](http://z0lw.github.io/GUI/sample/event.html)|
+|路線図駅クリック設定サンプル|[サンプルを確認](http://z0lw.github.io/GUI/sample/click.html)|
+|路線図サイズ調整サンプル|[サンプルを確認](http://z0lw.github.io/GUI/sample/table.html)|
+|路線図アプリケーションの実例サンプル|[サンプルを確認](http://z0lw.github.io/GUI/sample/powerful.html)|
 
 ### 駅すぱあとの情報
 
 |||
 | --- | --- |
-|データバージョンの取得|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/dataVersion.html)|
+|データバージョンの取得|[サンプルを確認](http://z0lw.github.io/GUI/sample/dataVersion.html)|
 
 ### 拡張ツール
 
 |||
 | --- | --- |
-|JSON/XML変換|[サンプルを確認](http://ekispertwebservice.github.io/GUI/sample/xmlCourse.html)|
+|JSON/XML変換|[サンプルを確認](http://z0lw.github.io/GUI/sample/xmlCourse.html)|
