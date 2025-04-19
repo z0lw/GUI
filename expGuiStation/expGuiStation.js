@@ -394,7 +394,7 @@ var expGuiStation = function (pObject, config) {
                 }
             };
             // Refererヘッダーを削除
-            //httpObj.setRequestHeader('Referrer-Policy', 'no-referrer');               
+            httpObj.setRequestHeader('Referrer-Policy', 'no-referrer');               
         }
         httpObj.open("GET", url, true);
         httpObj.send(null);
