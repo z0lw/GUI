@@ -393,6 +393,8 @@ var expGuiStation = function (pObject, config) {
                     outStationList(openFlag, JSON_object);
                 }
             };
+            // Refererヘッダーを削除
+            httpObj.setRequestHeader('Referrer-Policy', 'no-referrer');               
         }
         httpObj.open("GET", url, true);
         httpObj.send(null);
