@@ -354,7 +354,9 @@ var expGuiStation = function (pObject, config) {
             closeStationList();
             return;
         }
+    
         var url = apiURL + "v1/json/station/light?key=" + key + "&name=" + encodeURIComponent(str);
+    
         if (typeof stationType != 'undefined') {
             url += "&type=" + stationType;
         } else {
@@ -370,13 +372,17 @@ var expGuiStation = function (pObject, config) {
             }
             url += "&type=" + tmp_type.join(":");
         }
+    
         if (typeof stationPrefectureCode != 'undefined') {
             url += "&prefectureCode=" + stationPrefectureCode;
         }
+    
         if (typeof stationCorporationBind != 'undefined') {
             url += "&corporationBind=" + encodeURIComponent(stationCorporationBind);
         }
+    
         var JSON_object = {};
+    
         if (window.XDomainRequest) {
             // IE用
             httpObj = new XDomainRequest();
@@ -384,6 +390,8 @@ var expGuiStation = function (pObject, config) {
                 JSON_object = JSON.parse(httpObj.responseText);
                 outStationList(openFlag, JSON_object);
             };
+            httpObj.open("GET", url, true);
+            httpObj.send(null);
         } else {
             httpObj = new XMLHttpRequest();
             httpObj.onreadystatechange = function () {
@@ -393,12 +401,16 @@ var expGuiStation = function (pObject, config) {
                     outStationList(openFlag, JSON_object);
                 }
             };
-            // Refererヘッダーを削除
-            //httpObj.setRequestHeader('Referrer-Policy', 'no-referrer');               
+    
+            httpObj.open("GET", url, true); // open() を先に呼ぶ
+    
+            // Refererヘッダーを削除（openの後で呼び出す必要がある）
+            httpObj.setRequestHeader('Referrer-Policy', 'no-referrer');
+    
+            httpObj.send(null);
         }
-        httpObj.open("GET", url, true);
-        httpObj.send(null);
     }
+    
 
     /**
     * 駅名をセットする
