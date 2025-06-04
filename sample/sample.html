@@ -37,7 +37,8 @@ function init(){
   // 日付入力パーツ初期化
   dateTimeApp = new expGuiDateTime(document.getElementById("dateTime"));
   dateTimeApp.setConfigure("ssl", true);
-  dateTimeApp.dispDateTime(dateTimeApp.SEARCHTYPE_PLAIN);
+  // ダイヤ探索に設定し時間選択を可能にする
+  dateTimeApp.dispDateTime(dateTimeApp.SEARCHTYPE_DIA);
 
   // 駅名入力パーツ#1初期化
   stationApp1 = new expGuiStation(document.getElementById("station1"));
@@ -217,7 +218,7 @@ function result(isSuccess){
 <!-- 日付入力パーツ -->
 <table class="sample">
   <tr>
-    <td class="sample_title">出発日</td>
+    <td class="sample_title">出発日時</td>
   </tr>
   <tr>
     <td>

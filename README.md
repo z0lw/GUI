@@ -83,7 +83,7 @@
 
 |||
 | --- | --- |
-|経路探索|[サンプルを確認](http://z0lw.github.io/GUI/sample/sample.html)|
+|経路探索（時刻指定）|[サンプルを確認](http://z0lw.github.io/GUI/sample/sample.html)|
 |鉄道駅の時刻表|[サンプルを確認](http://z0lw.github.io/GUI/sample/stationTimeTable.html)|
 |区間の時刻表|[サンプルを確認](http://z0lw.github.io/GUI/sample/sectionTimeTable.html)|
 |鉄道駅時刻表の列車情報|[サンプルを確認](http://z0lw.github.io/GUI/sample/trainTimeTable.html)|
